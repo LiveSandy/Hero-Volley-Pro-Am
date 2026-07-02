@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hero Volley Montauk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --deep: #0B4A4F;
+  --teal: #0E7C86;
+  --cyan: #22B8C4;
+  --light: #8FE9EE;
+  --pale: #EAFBFA;
+  --sand: #FBF8F1;
+  --ink: #0A2E30;
+  --line: #D7E9E8;
+  --win: #1FA35C;
+  --warn: #E0A100;
+  --white: #ffffff;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;background:var(--sand);color:var(--ink);font-family:'Inter',sans-serif;-webkit-tap-highlight-color:transparent;}
+body{padding-bottom:70px;}
+h1,h2,h3{font-family:'Oswald',sans-serif; margin:0;}
+.score-num{font-family:'Archivo Black',sans-serif;}
+button{font-family:'Inter',sans-serif; cursor:pointer;}
+input,select{font-family:'Inter',sans-serif;}
+
+/* Top bar */
+.topbar{position:sticky; top:0; z-index:50; background:linear-gradient(120deg,var(--deep),var(--teal) 65%,var(--cyan)); color:#fff; padding:14px 16px 12px; box-shadow:0 4px 14px rgba(11,74,79,.25);}
+.topbar-row{display:flex; align-items:center; gap:10px;}
+.header-qr{flex:0 0 auto; width:56px; height:56px; background:#fff; border-radius:8px; padding:4px; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 6px rgba(0,0,0,.2);}
+.back-brand-btn{flex:1; text-align:left; background:none; border:none; color:#fff; font-family:'Oswald',sans-serif; font-size:16px; font-weight:600; letter-spacing:.02em; padding:2px 0; display:flex; align-items:center; gap:6px;}
+.back-brand-btn::before{content:'\2039'; font-size:22px; font-weight:700; opacity:.8;}
+.app-footer{text-align:center; font-size:11px; color:#9db3b3; padding:18px 0 28px; letter-spacing:.02
